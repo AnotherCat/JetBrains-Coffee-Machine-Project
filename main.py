@@ -84,7 +84,7 @@ class CoffeeMachine:
             pass_check = self.check_resources(200, 100, 12, 1)
             if pass_check == True:
                 self.change_amounts(-200, -100, -12, 6, -1)
-                print('I have enough resources, making you a latte!')
+                print('I have enough resources, making you a cappuccino!')
 
         else:
             print("that type of coffee does not exist")
